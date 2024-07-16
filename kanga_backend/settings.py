@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-*2zsg%+%8(vm_kvjjx@ru-=h)1f5gu4=tmcc_%$^e0$%(*196e
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']  # Adjust as per your deployment environment
+ALLOWED_HOSTS = ['3.129.209.56', 'kangaroocook-frontend.s3-website.us-east-2.amazonaws.com', 'd11fdf7a041hyl.cloudfront.net'] # Adjust as per your deployment environment
 
 INSTALLED_APPS = [
     'django.contrib.admin',
