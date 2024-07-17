@@ -72,8 +72,8 @@ DATABASES = {
 # AWS S3 and CloudFront Settings
 AWS_ACCESS_KEY_ID =os.getenv('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME = 'kangaroocook'
-AWS_S3_CUSTOM_DOMAIN = 'd11fdf7a041hyl.cloudfront.net'
+AWS_STORAGE_BUCKET_NAME = os.getenv('AWS_STORAGE_BUCKET_NAME')
+AWS_S3_CUSTOM_DOMAIN =os.getenv('AWS_CUSTOM_DOMAIN')
 AWS_S3_OBJECT_PARAMETERS = {
     'CacheControl': 'max-age=86400',
 }
