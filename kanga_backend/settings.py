@@ -8,7 +8,7 @@ load_dotenv()
 SECRET_KEY = '32$p=&b8e$qwb2yz&lcur+7o)wl5y4orb18b&jz7k4s))z8rkz'
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','3.129.209.56', 'kangaroocook-frontend.s3-website.us-east-2.amazonaws.com', 'd11fdf7a041hyl.cloudfront.net'] # Adjust as per your deployment environment
+ALLOWED_HOSTS = ['127.0.0.1','3.131.36.58', 'kangaroocook-frontend.s3-website.us-east-2.amazonaws.com', 'd11fdf7a041hyl.cloudfront.net'] # Adjust as per your deployment environment
 
 INSTALLED_APPS = [
     'django.contrib.admin',
